@@ -1,6 +1,6 @@
 # Windows Terminal Tweaks
 ![wt](https://raw.githubusercontent.com/microsoft/terminal/master/res/terminal.ico)
-## wt.reg
+## [wt.reg](https://github.com/MERZAK-X/wt/blob/master/wt.reg)
 > This registry will make you able to have an _Open in Windows Terminal_ option for folders like the one in Linux distros
 
 Before installing this registry you must change **{USERNAME}** with your current _user folder name_ & optionally specify an icon (download the one above and set its path in the `wt.reg`).
