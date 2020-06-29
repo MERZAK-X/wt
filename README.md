@@ -21,6 +21,8 @@ Windows Registry Editor Version 5.00
 
 ```
 
+<br>
+
 ## Uninstall
 
 Open `regedit` from `Win + R` Run prompt, go to `Computer\HKEY_CLASSES_ROOT\Directory\Background\shell\WindowsTerminal` from the path bar, then right click the *Windows Terminal* folder and click delete.
