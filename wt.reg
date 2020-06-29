@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\WindowsTerminal]
+@="Open in Windows Terminal"
+;@="In Windows Terminal öffnen"
+
+; Uncoment and set your custom icon path
+;"Icon"="%USERPROFILE%\\AppData\\Local\\Icons\\wt.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\WindowsTerminal\command]
+; You must change {USERNAME} with your current user folder name
+@="\"C:\\Users\\{USERNAME}\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe\" -d ."
